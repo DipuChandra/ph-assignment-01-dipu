@@ -1,0 +1,205 @@
+.logo{
+    padding: 30px 0px;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    align-items: center;
+}
+.nav-menu h2{
+    padding: 30px 20px;
+    text-transform: uppercase;
+    font-size: 21px;
+    color:var( --font-nav-colour);
+}
+
+.nav-botton{
+  
+    padding: 15px 25px;
+    font-size: 21px;
+    font-weight: 400;
+   background-color: var(--botton-colour);
+   margin: 20px 0px;
+}
+
+.headet-main{
+    display: flex;
+    padding: 0px 60px;
+    
+}
+
+.header-text{
+   
+    padding-top: 145px;
+    padding-left: 10px;
+}
+.header-text button{
+    padding: 20px 30px;
+    font-size: 26px;
+    border-radius: 50px;
+    background-color: var(--botton-colour);
+}
+.header-logo img{
+    padding: 20px 10px;
+}
+.header-topic{
+    display: flex;
+    padding: 20px 0px;
+}
+.header-topic img{
+   
+    padding: 0px 10px;
+}
+
+
+.header-img img{
+    width: 580px;
+    height: 618px;
+
+}
+.header-text-line{
+    display: flex;
+    align-items: center;
+}
+.header-text-line img{
+    padding: 0px 10px;
+}
+
+.header-about-me{
+    display: flex;
+    padding: 25px 200px;
+    justify-content: space-between;
+}
+.header-about-text p{
+    padding: 10px 0px;
+}
+.header-about-icon{
+    text-align: right;
+}
+.header-about-star img{
+    height: 24px;
+    width: 24px;
+
+    padding-bottom: 10px;
+}
+
+/* responsive started */
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .logo img{
+        padding: 20px 35px;
+        text-align: center;
+        width: 72px;
+        height: auto;
+        align-items: center;
+
+    }
+    .nav-bar{
+        display: inline-block;
+        
+        align-items: center;
+    }
+    .nav-botton{
+  
+        padding: 10px 15px;
+        font-size: 15px;
+        
+       margin: 20px 10px;
+    }
+    .headet-main{
+        display: inline-block;
+        
+        
+    }
+    
+.nav-menu h2{
+    padding: 5px 2px;
+    text-transform: uppercase;
+    font-size: 8px;
+    color:var( --font-nav-colour);
+}
+
+.nav-botton{
+  
+    padding: 10px 15px;
+    font-size: 10px;
+    font-weight: 400;
+  
+   margin: 10px 0px;
+}
+   
+    
+
+.nav-bar{
+   
+   
+    padding: 0px 20px;
+ 
+}
+
+.headet-main{
+    display: inline-block;
+    padding: 0px 5px;
+    
+}
+
+.header-text{
+   
+    padding-top: 25px;
+    padding-left: 5px;
+}
+.header-text button{
+    padding: 10px 15px;
+    font-size: 10px;
+    border-radius: 50px;
+    background-color: var(--botton-colour);
+}
+.header-logo img{
+    padding: 5px 5px;
+}
+.header-img img{
+    width: 180px;
+    height: auto;
+
+}
+
+.header-topic{
+    display: flex;
+    padding: 5px 0px;
+}
+.header-topic img{
+   
+    padding: 0px 5px;
+}
+
+.header-text-line{
+    display: flex;
+    align-items: center;
+}
+.header-text-line img{
+    padding: 0px 2px;
+}
+
+.header-about-me{
+    display: inline-block;
+    padding: 5px 7px;
+    justify-content: space-between;
+}
+.header-about-text p{
+    padding: 10px 5px;
+}
+.header-about-icon{
+    text-align: center;
+}
+.header-about-star img{
+    height: 12px;
+    width: 12px;
+
+    padding-bottom: 10px;
+}
+
+}
+/* responsive ended */

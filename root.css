@@ -1,0 +1,62 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+:root{
+    --font-primary-colour:#ffffff;
+    --font-secondery-colour:#8E8E8E;
+    --font-nav-colour:#FFF8F8;
+    --bacground-colour:#1E1E1E;
+    --footer-colour:#000000;
+    --botton-colour:#FD6F00;
+  
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color:var(--font-primary-colour);
+}
+
+body{
+    background-color: var(--bacground-colour);
+}
+
+p{
+    font-size: 18px;
+    color: var(--font-secondery-colour);
+
+}
+h1{
+    font-size: 40px;
+    color: var(--font-primary-colour);
+}
+span{
+    color: var(--botton-colour);
+}
+/* responsive started */
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    p{
+        font-size: 8px;
+        color: var(--font-secondery-colour);
+    
+    }
+    h1{
+        font-size: 10px;
+        color: var(--font-primary-colour);
+    }
+    img{
+        width: 8px;
+        height: 8px;
+    }
+    h2,h3{
+        font-size: 8px;
+    }
+   
+
+}
+/* responsive ended */

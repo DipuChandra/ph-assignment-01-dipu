@@ -1,0 +1,66 @@
+.footer{
+    background-color: black;
+    text-align: center;
+  
+}
+.footer-logo img{
+   
+    
+    margin: 80px 40px;
+}
+.footer-bar-menu{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.footer-bar-menu h2{
+   padding: 30px 20px;
+   
+}
+
+.footer-end{
+    text-align: center;
+    padding: 15px ;
+    background-color:#121212 ;
+   
+}
+
+/* responsive started */
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+    .footer{
+        background-color: black;
+        text-align: center;
+      
+    }
+    .footer-logo img{
+       
+        width: 32px;
+        height: auto;
+        margin: 10px 20px;
+    }
+    .footer-bar-menu{
+        display: inline-block;
+        justify-content: center;
+       
+       
+    }
+    .footer-bar-menu h2{
+       padding: 10px 3px;
+       font-size: 12px;
+       
+    }
+    
+    .footer-end{
+        text-align: center;
+        padding: 5px ;
+        background-color:#121212 ;
+        font-size: 8px;
+       
+    }
+
+
+}
+/* responsive ended */

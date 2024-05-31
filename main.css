@@ -1,0 +1,276 @@
+
+/* exprerince started */
+.experince {
+    height: 100%;
+   background-image: url(./image/My\ experience\ \(1\).png);
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  padding-right: 100px;
+    
+ 
+}
+
+.experice-container-text{
+    padding: 100px 50px 100px;
+}
+.experice-container-text h2{
+    color: var(--font-primary-colour);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+}
+.experice-container-text h1{
+   
+    padding: 20px 0px;
+}
+.experice-contair-total{
+    display: inline;
+    padding: 100px 20px;
+}
+.experice-contair-details{
+    border-bottom: 1px solid var(--font-secondery-colour);
+}
+.experice-contair-date{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+   
+}
+.experice-contair-details h1{
+    padding: 20px;
+    border-bottom: 1px solid var(--font-secondery-colour);
+}
+/* exprerince ended */
+/* Awared stated */
+
+.awared-container{
+    text-align: center;
+    padding: 100px 0px;
+}
+.awared-time{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+   
+}
+.awared-text-line-date{
+    text-align: center;
+    padding:10px 30px 30px;
+    background-color: var( --footer-colour);
+    margin: 20px 250px;
+
+}
+
+/* Awared ended */
+/* protfolio start */
+
+.portfolio-text-line{
+    
+    text-align: center;
+
+}
+.protfolio-text-button{
+    text-align: center;
+    padding: 20px 30px;
+}
+.protfolio-text-button button{
+   align-content: center;
+    background-color: black;
+    padding: 10px 15px;
+    margin: 5px;
+}
+.protfolio-text-button span button{
+    background-color: var(--botton-colour);
+}
+.protfolio-image-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+}
+.protfolio-image-text img{
+    padding: 40px;
+   
+    
+}
+
+/* protfolio ended */
+/*Contact started */
+.contat-text{
+    text-align: center;
+}
+.contact-from{
+   
+   
+    background-color: #34261B;
+    margin: 30px 200px;
+}
+.contact-from h1{
+    
+    text-transform: uppercase;
+    padding: 30px 0px 0px 30px;
+}
+.contact-from h3{
+    margin: 20px 40px;
+    border-bottom: 1px solid var(--font-primary-colour);
+    padding: 10px 330px 10px 0px;
+    
+}
+.contact-from button{
+    background-color: var(--botton-colour);
+    padding: 15px 20px;
+  
+   margin-left: 40px;
+   margin-bottom: 20px;
+   
+}
+.contact-from span{
+    display: flex;
+    justify-content: left;
+   
+}
+
+/*Contact ended */
+
+
+/* responsive started */
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    /* exprerince started */
+.experince {
+    height: 100%;
+   background-image: url(./image/My\ experience\ \(1\).png);
+   background-repeat: no-repeat;
+   display: inline-block;
+   justify-content: space-between;
+   align-items: center;
+  padding-right: 5px;
+    
+ 
+}
+
+.experice-container-text{
+    padding: 5px;
+}
+.experice-container-text h2{
+    color: var(--font-primary-colour);
+    font-style: italic;
+    font-size: 8px;
+    font-weight: 400;
+}
+.experice-container-text h1{
+   
+    padding: 4px 0px;
+}
+.experice-contair-total{
+    display: flex;
+    padding: 10px 4px;
+}
+.experice-contair-details{
+    border-bottom: .5px solid var(--font-secondery-colour);
+}
+.experice-contair-date{
+    display: inline-block;
+    justify-content: center;
+    padding: 4px 0px;
+   
+}
+.experice-contair-details h1{
+    padding: 4px;
+    border-bottom: .5px solid var(--font-secondery-colour);
+}
+/* exprerince ended */
+/* Awared stated */
+
+.awared-container{
+    text-align: center;
+    padding: 10px 0px;
+}
+.awared-time{
+   
+    display: inline-block;
+    justify-content: space-between;
+    padding: 6px 4px;
+   
+}
+.awared-text-line-date{
+    text-align: center;
+    padding:4px 6px 6px;
+    background-color: var( --footer-colour);
+    margin: 6px 4px;
+
+}
+
+/* Awared ended */
+/* protfolio start */
+
+
+.protfolio-text-button{
+   
+    padding: 4px 6px;
+}
+.protfolio-text-button button{
+  
+    padding: 6px 4px;
+    margin: 5px;
+}
+
+.protfolio-image-text{
+    display: inline-block;
+  
+  
+}
+.protfolio-image-text img{
+    padding: 6px;
+   
+    
+}
+.image img{
+    width: 72px;
+    height: auto;
+   
+}
+
+/* protfolio ended */
+/*Contact started */
+.contat-text{
+    text-align: center;
+}
+.contact-from{
+   
+   
+    background-color: #34261B;
+    margin: 4px 4px;
+}
+.contact-from h1{
+    
+    text-transform: uppercase;
+    padding: 6px 0px 0px 4px;
+}
+.contact-from h3{
+    margin: 4px 4px;
+    border-bottom: .5px solid var(--font-primary-colour);
+    padding: 4px 50px 4px 0px;
+    
+}
+.contact-from button{
+  
+    padding: 4px 4px;
+  
+   margin-left: 4px;
+   margin-bottom: 4px;
+   
+}
+.contact-from span{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+}
+/* responsive ended */
